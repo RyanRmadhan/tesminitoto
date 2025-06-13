@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini TOTO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="/" href="img/10.jpg">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><img src="img/1.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto jdl2">
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#" style="color: white;">Home</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#about" style="color: white;">About</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#jackpot" style="color: white;">Jackpot</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#winnet" style="color: white;">Winner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" style="color: white;">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+ <section class="hero-custom">
+   <canvas id="fireworks-canvas"></canvas>
+  <div class="container">
+   
+
+    <div class="row align-items-center flex-column-reverse flex-md-row">
+      <!-- Kolom Teks -->
+      <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+        <h1 class="display-4 fw-bold text-blink" data-aos="fade-right" data-aos-delay="300">MINI TOTO</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="300">
+          Dapatkan diskon hingga 50% dan nikmati pengalaman bermain yang seru serta peluang menang yang lebih besar setiap harinya!
+        </p>
+        <a href="https://minitotoharus.com/" class="btn btn-register btn-lg" data-aos="fade-left" data-aos-delay="300">Register</a>
+      </div>
+
+      <!-- Kolom Gambar -->
+      <div class="col-md-6 text-center mb-4 mb-md-0" data-aos="zoom-in" data-aos-delay="400">
+        <img src="img/51.png" alt="Hero Image" class="img-fluid rounded hero-img-custom shake-animation shadow-custom">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/9.jpg" class="d-block w-100" alt="Slide1">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" class="d-block w-100" alt="Slide2">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/4.jpg" class="d-block w-100" alt="Slide3">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/6.jpg" class="d-block w-100" alt="Slide3">
+        <div class="carousel-caption d-none d-md-block">
+       
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+    <!-- Icon Section -->
+<!-- Icon Section -->
+<section class="icon-section mb-5">
+  <div class="container icons">
+
+    <!-- Judul Section -->
+    <div class="text-center mb-4">
+      <h2 style="
+        font-weight: bold;
+        background: linear-gradient(to right, #ffc107, #ff8c00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      ">
+        Nikmati Bonus, Event & Keamanan
+      </h2>
+    </div>
+
+    <div class="row justify-content-center g-4">
+
+      <!-- Box 1: Bonus -->
+      <div class="col-sm-6 col-md-3 text-center">
+        <div class="icon-box" data-aos="fade-right" data-aos-delay="300">
+          <i class="fas fa-coins mb-3" style="font-size: 3rem; color: #ffc107;"></i>
+          <h5>Bonus Menarik</h5>
+          <p>Dapatkan reward dan bonus khusus dari kami.</p>
+          <button type="button" class="btn btn-warning" onclick="window.open('https://minitotoharus.com/referral', '_blank')">
+            Lihat Sekarang
+          </button>
+        </div>
+      </div>
+
+      <!-- Box 2: Event -->
+      <div class="col-sm-6 col-md-3 text-center" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon-box">
+          <i class="fas fa-calendar-check mb-3" style="font-size: 3rem; color: #007bff;"></i>
+          <h5>Event Menarik</h5>
+          <p>Ikuti event online eksklusif dari mana saja.</p>
+          <button type="button" class="btn btn-warning" onclick="window.open('https://minitotoharus.com/promotion', '_blank')">
+            Lihat Sekarang
+          </button>
+        </div>
+      </div>
+
+      <!-- Box 3: Aman -->
+      <div class="col-sm-6 col-md-3 text-center" data-aos="fade-left" data-aos-delay="300">
+        <div class="icon-box">
+          <i class="fas fa-shield-alt mb-3" style="font-size: 3rem; color: #28a745;"></i>
+          <h5>Transaksi Aman</h5>
+          <p>Sistem pembayaran cepat dan terpercaya.</p>
+          <button type="button" class="btn btn-warning" onclick="window.open('https://minitotoharus.com/promotion', '_blank')">
+            Lihat Sekarang
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- main -->
+<section class="landing-section py-5">
+  
+  <div class="container">
+    
+    <div class="row align-items-center">
+
+      <!-- Gambar Besar Kiri -->
+      <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+        <img src="img/14.png" alt="Gambar Besar" class="img-fluid rounded big-image shake-animation">
+      </div>
+
+      <!-- Gambar Kecil Kanan -->
+      <div class="col-lg-6">
+        <div class="row g-3">
+
+          <!-- Box 1 -->
+          <div class="col-12 d-flex align-items-center">
+            <img src="img/17.png" alt="Gambar 1" class="img-fluid custom-img me-3">
+          </div>
+
+          <!-- Box 2 -->
+          <div class="col-12 d-flex align-items-center">
+            <img src="img/15.png" alt="Gambar 2" class="img-fluid custom-img me-3">
+          </div>
+
+          <!-- Box 3 -->
+          <div class="col-12 d-flex align-items-center">
+            <img src="img/52.png" alt="Gambar 3" class="img-fluid custom-img me-3">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+ <!-- end main -->
+  <!-- Footer -->
+  <footer class="text-center mt-5">
+    <div class="container">
+      <p>&copy; 2025 Landing Page. All rights reserved.</p>
+      <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a>
+      </p>
+    </div>
+  </footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true // animasi hanya sekali saat scroll
+  });
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
